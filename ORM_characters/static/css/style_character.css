@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    margin-bottom: 10px;
+    background-color: #3B3C40;
+    padding: 6px;
+    color: #fff;
+    position: fixed;
+    z-index: 1;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px #3B3C40;
+}
+
+.container_view {
+    padding-top: 47px;
+    background-color: #707070;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.container_view h1 {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 4px 14px rgba(255, 255, 255, 1);
+    font-family: 'Permanent Marker', cursive;
+    transition: all .2s
+}
+
+.container_view h1:hover {
+    color: #707070;
+    text-shadow: 2px 4px 14px rgba(255, 255, 255, 1);
+    transition: all .4s
+}
+
+.container__view {
+    text-transform: uppercase;
+}
+
+.container__card {
+    margin-left: 18%;
+}
+
+.card {
+    width: 300px;
+    height: 100%;
+    background-color: #3B3C40;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px 7px;
+    box-shadow: 5px 5px 5px #333333;
+
+}
+
+#link {
+    color: #3B3C40;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+#link:hover {
+    font-size: 33px;
+    color: #fff;
+    transition: all .4s;
+    text-decoration: underline #fff;
+}
+
+.container__card h2 {
+    font-size: 30px;
+    font-family: 'Antonio', sans-serif;
+    color: #333333;
+    text-shadow: 1px 1px 4px #fff;
+    transition: all .2s;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+
+
+.container__card h2:hover {
+    font-size: 32px;
+    color: #fff;
+    transition: all .4s;
+}
+
+.container__card p {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Antonio', sans-serif;
+    margin-bottom: 10px;
+}
+
+input[type='submit'] {
+    font-size: 24px;
+    color: #c21d17;
+    background: #777777;
+    position: relative;
+    top: 10px;
+    left: 33%;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px 5px;
+    text-shadow: 1px 1px 1px #111111;
+    transition: all .2s;
+}
+
+input[type='submit']:hover {
+    font-size: 29px;
+    color: red;
+    height: 35px;
+    width: 105px;
+    transition: all .4s;
+
+}
+
+.container__card img {
+    border-radius: 10px 5px;
+    box-shadow: 2px 2px 5px #707070;
+}
+
+.button__save {
+    position: relative;
+    left: 70%;
+}
+
+.button__save a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px;
+    color: #fff;
+    background-color: #333333;
+    border-radius: 10px 5px;
+    position: relative;
+    left: 10%;
+}
+
+/*This is style of filter_characters.html*/
+
+.container_search-form > form {
+    position: relative;
+    top: 40px;
+    left: 20%;
+}
+
+.container__search {
+    display: block;
+    padding-top: 37px;
+    background-color: #707070;
+    height: 500px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#button {
+    color: #fff;
+    background: #111;
+    text-shadow: 1px 1px #fff;
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+
+}
+
+#text {
+    height: 25px;
+    width: 300px;
+    background-color: #333333;
+    font-size: 20px;
+    font-family: 'Antonio', sans-serif;
+    color: #fff;
+    position: relative;
+    left: 21.5%;
+    top: 10px;
+    transition: all .2s;
+    border-radius: 10px 5px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding-left: 10px;
+
+}
+
+#text:hover {
+    height: 30px;
+    width: 315px;
+    transition: all 0.4s;
+}
+
+.card-filter {
+    width: 300px;
+    height: 340px;
+    background-color: #3B3C40;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px 7px;
+    box-shadow: 5px 5px 5px #333333;
+    position: relative;
+    top: 50px;
+    left: 190px;
+
+
+}
+
+.card-filter h2 {
+    font-size: 30px;
+    font-family: 'Antonio', sans-serif;
+    color: #333333;
+    text-shadow: 1px 1px 4px #fff;
+    transition: all .2s;
+    margin-bottom: 7px;
+}
+
+.card-filter h2:hover {
+    font-size: 32px;
+    color: #fff;
+    transition: all .4s;
+}
+
+.card-filter p {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Antonio', sans-serif;
+    margin-bottom: 10px;
+}
+
+/*end style*/
+#a--updata {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+#a--updata:hover {
+    font-size: 30px;
+    text-decoration: underline #fff;
+    transition: all 0.4s;
+
+}
+
+#center {
+    position: relative;
+    left: 25%;
+    margin-bottom: 20px;
+}
+
+.card_card {
+    position: relative;
+    left: 10%;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 100%;
+    background-color: #3B3C40;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px 7px;
+    box-shadow: 5px 5px 5px #333333;
+}
+
+#data p {
+    display: inline-block;
+    padding: 20px;
+    border-style: inset;
+    border-radius: 10px 5px;
+    box-shadow: 1px 2px 5px #fff;
+    margin: 10px;
+    color: #fff
+}
+
+#data p > i {
+    color: #333333;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+#data p > a {
+    color: #333333;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #fff;
+    text-decoration: none;
+}
+#data p>a:hover {
+text-decoration: underline;
+}
+.b_detail {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+    position: relative;
+    right: 20px;
+    bottom: 25px;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px initial;
+    border-radius: 8px 5px;
+    background-color: #777777;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.b_detail:hover {
+    color: #333333;
+    text-shadow: 1px 1px #fff;
+    font-size: 28px;
+    transition: all .4s;
+}

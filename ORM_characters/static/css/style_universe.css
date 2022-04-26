@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    margin-bottom: 4px;
+    background-color: #3B3C40;
+    padding: 6px;
+    color: #fff;
+    position: fixed;
+    z-index: 1;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px #3B3C40;
+}
+
+.container_view {
+    padding-top: 47px;
+    background-color: #707070;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.container_view h1 {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 4px 14px rgba(255, 255, 255, 1);
+    font-family: 'Permanent Marker', cursive;
+    transition: all .2s
+}
+
+.container_view h1:hover {
+    color: #707070;
+    text-shadow: 2px 4px 14px rgba(255, 255, 255, 1);
+    transition: all .4s
+}
+
+.container_view-card {
+    margin: 3px;
+    height: 400px;
+    width: 500px;
+    background-color: #333333;
+    border-radius: 10px 5px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left: 20%;
+    box-shadow: 5px 5px 5px #333332;
+    font-family: 'Antonio', sans-serif;
+}
+
+.container_view-card > h2 {
+    color: #3B3C40;
+    font-size: 50px;
+    text-shadow: 2px 1px 3px #fff;
+    transition: all .3s;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+#link{
+    color: #3B3C40;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+#link:hover {
+    font-size: 55px;
+    color: #fff;
+    transition: all .4s;
+}
+
+.container_view-card > p {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.container_view-card input[type="submit"] {
+    background-color: #777777;
+    height: 50px;
+    width: 120px;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: 3px 1px 5px #111111;
+    color: #c21d17;
+    border: 1px solid #777790;
+    border-radius: 15px 8px;
+    position: relative;
+    top: 70px;
+    left: 30%;
+    box-shadow: 3px 3px 5px #777770;
+    transition: all .3s;
+}
+
+input[type="submit"]:hover {
+    font-size: 30px;
+    transition: all .5s;
+    height: 55px;
+    width: 125px;
+}
+
+.button__save > p {
+    font-size: 50px;
+    font-family: 'Antonio', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 1px 4px #111;
+
+}
+
+.button__save > a {
+    border-radius: 8px 4px;
+    color: #707070;
+    background-color: #333333;
+    font-size: 40px;
+    position: relative;
+    left: 50%;
+    text-decoration: none;
+    text-shadow: 2px 1px 4px #111;
+    transition: all 0.2s;
+
+}
+
+.button__save > a:hover {
+    font-size: 45px;
+    transition: all 0.4s
+}
+
+.container__create {
+    padding-top: 47px;
+    background-color: #707070;
+    height: 100%;
+    width: 100%;
+}
+
+.container__view {
+    text-transform: uppercase;
+}
+
+.container__create form {
+    background-color: #333333;
+    width: 500px;
+    height: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 40%;
+    border-radius: 10px 5px;
+    box-shadow: 5px 3px 5px #333333;
+}
+
+p label {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 1px 2px #fff;
+    color: #333333;
+    transition: all .2s;
+}
+
+p label:hover {
+    transition: all .4s;
+    color: #fff;
+}
+
+p input {
+    width: 300px;
+    position: relative;
+    left: 20%;
+    height: 20px;
+    background-color: #707070;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    font-size: 15px;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+p select{
+    font-size: 25px;
+    position: relative;
+    left: 40%;
+    background-color: #707070;
+    color: #fff;
+    height: 40px;
+    width: 120px;
+    padding-left: 10px;
+}
+
+
+.button_save {
+    font-size: 25px;
+    color: #333333;
+    background-color: #707070;
+    font-family: 'Antonio', sans-serif;
+    border-radius: 10px 5px;
+    border: #707070;
+    text-shadow: 2px 1px 2px #111111;
+    box-shadow: 3px 2px 5px #111111;
+    height: 50px;
+    width: 120px;
+    position: relative;
+    left: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all .2s
+}
+#button_center{
+    position: relative;
+    left: 40%;
+}
+
+.container__create > a {
+    position: relative;
+    bottom:20px;
+    left: 90%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: 1px 1px 1px #111;
+
+}
+.container__create>a:hover{
+    color: #bbbbbb;
+}
